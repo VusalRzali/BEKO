@@ -1,0 +1,68 @@
+
+.header {
+  width: 100%;
+
+    // background: url(../../images/banner_bg.png);
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 99999;
+  transition: all 0.8s ease-in;
+  .container {
+    
+    .navBar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 15px;
+     
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      .navList {
+        display: flex;
+        .navLink {
+          display: flex;
+          align-items: center;
+          color: #ffffff;
+          font-size: 15px;
+          padding: 43px 23px;
+          font-family: "Poppins", sans-serif;
+          text-transform: capitalize;
+          line-height: 12px;
+          font-weight: 400;
+        }
+      }
+      .nav-btn {
+        width: 15%;
+        height: 61px;
+        background: rgb(255,0,0);
+        background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(198,1,154,1) 51%, rgba(255,0,0,1) 100%);
+        padding: 10px;
+        font-size: 15px;
+        font-family: "Aclonica", sans-serif;
+        font-weight: 500;
+        color: #fff;
+        text-transform: capitalize;
+        background-size: 200% auto;
+        border: 1px solid transparent;
+        transition: all .5s ease-in-out;
+        &:hover{
+            background-position: right center;
+        }
+      }
+    }
+  }
+}
+.sticky-first {
+  top: -100px;
+ 
+}
+.sticky-second {
+  background: none;
+  background-color: #ff0000;
+  position: fixed;
+  top: 0;
+}
