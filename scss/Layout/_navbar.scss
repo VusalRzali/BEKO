@@ -8,7 +8,11 @@
     background-size: cover;
     position: relative;
     z-index: 99999;
-  transition: all 0.8s ease-in;
+    top: 0;
+    left: 0;
+    position: absolute;
+  
+  transition: all .5s ease-in;
   .container {
     
     .navBar {
@@ -16,6 +20,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 0 15px;
+      transition: all .5s ease-in;
      
       .logo {
         display: flex;
@@ -33,6 +38,42 @@
           text-transform: capitalize;
           line-height: 12px;
           font-weight: 400;
+           
+            position: relative;
+            // display: block;
+            cursor: pointer;
+          
+          
+          &:before, &:after {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 3px;
+            top: 50%;
+            margin-top: -0.5px;
+            background: #000;
+          }
+          
+          &:before {
+            left: -2.5px;
+          }
+          &:after {
+            left: 2.5px;
+            background: #000;
+            transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+          }
+          
+          &:hover:before {
+            background: #000;
+            width: 100%;
+            transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+          }
+          
+         &:hover:after {
+            background: transparent;
+            width: 100%;
+            transition: 0s;
+          }
         }
       }
       .nav-btn {

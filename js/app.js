@@ -5,7 +5,7 @@ window.onscroll = function() {headerFunction()}
 
 
 function headerFunction() {
-    if (window.pageYOffset > 10) {
+    if (window.pageYOffset > 80) {
       header.classList.add("sticky-first");
     } else {
       header.classList.remove("sticky-first");
