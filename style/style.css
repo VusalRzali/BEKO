@@ -77,6 +77,7 @@
   font-size: 15px;
   font-family: "Aclonica", sans-serif;
   font-weight: 500;
+  cursor: pointer;
   color: #fff;
   text-transform: capitalize;
   background-size: 200% auto;
@@ -152,6 +153,7 @@ body {
   background: rgb(255, 0, 0);
   background: -webkit-gradient(linear, left top, right top, from(rgb(255, 0, 0)), color-stop(51%, rgb(198, 1, 154)), to(rgb(255, 0, 0)));
   background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(198, 1, 154) 51%, rgb(255, 0, 0) 100%);
+  cursor: pointer;
   padding: 10px;
   font-size: 15px;
   font-family: "Aclonica", sans-serif;
@@ -220,6 +222,7 @@ body {
 .about .container .about-content button:nth-child(3) {
   width: 36%;
   height: 61px;
+  cursor: pointer;
   background: rgb(255, 0, 0);
   background: -webkit-gradient(linear, left top, right top, from(rgb(255, 0, 0)), color-stop(51%, rgb(198, 1, 154)), to(rgb(255, 0, 0)));
   background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(198, 1, 154) 51%, rgb(255, 0, 0) 100%);
@@ -244,6 +247,7 @@ body {
   background: rgb(255, 0, 0);
   background: -webkit-gradient(linear, left top, right top, from(rgb(255, 0, 0)), color-stop(51%, rgb(198, 1, 154)), to(rgb(255, 0, 0)));
   background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(198, 1, 154) 51%, rgb(255, 0, 0) 100%);
+  cursor: pointer;
   font-size: 15px;
   font-family: "Aclonica", sans-serif;
   font-weight: 500;
@@ -321,6 +325,7 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(rgb(255, 0, 0)), color-stop(51%, rgb(198, 1, 154)), to(rgb(255, 0, 0)));
   background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(198, 1, 154) 51%, rgb(255, 0, 0) 100%);
   padding: 10px;
+  cursor: pointer;
   font-size: 15px;
   font-family: "Aclonica", sans-serif;
   font-weight: 500;
@@ -771,9 +776,350 @@ body {
   }
 }
 
+.upcoming {
+  background-image: url(../../images/event_bg.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  background-position: center bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.upcoming .container .upcoming-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+}
+.upcoming .container .upcoming-content .upcoming-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.upcoming .container .upcoming-content .upcoming-title h3 {
+  font-family: "Aclonica", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+.upcoming .container .upcoming-content .upcoming-timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+}
+.upcoming .container .upcoming-content .upcoming-timer span {
+  font-size: 20px;
+}
+.upcoming .container .upcoming-content .upcoming-timer .days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+  font-size: 50px;
+  color: #fff;
+  font-family: "Aclonica", sans-serif;
+}
+.upcoming .container .upcoming-content .upcoming-timer .hours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+  font-size: 50px;
+  color: #fff;
+  font-family: "Aclonica", sans-serif;
+}
+
+.pricing {
+  padding: 140px 0px 0px;
+}
+.pricing .container .pricing-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.pricing .container .pricing-title h2 {
+  font-size: 45px;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 500;
+  font-family: "Aclonica", sans-serif;
+  margin-bottom: 28px;
+}
+.pricing .container .pricing-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+.pricing .container .pricing-cards .pricing-card {
+  background: url(../../images/pricing_bg.png);
+  padding: 35px 35px 60px;
+  background-color: #0b111f;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 270px;
+  height: 515px;
+}
+.pricing .container .pricing-cards .pricing-card p {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 55px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 29px;
+}
+.pricing .container .pricing-cards .pricing-card h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Aclonica", sans-serif;
+}
+.pricing .container .pricing-cards .pricing-card ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 16px 0 22px;
+  padding-top: 37px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  font-family: "Aclonica", sans-serif;
+  font-size: 14px;
+}
+.pricing .container .pricing-cards .pricing-card ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  color: #7f7f7f;
+  text-transform: capitalize;
+  padding: 15px 0;
+  border-bottom: 1px dotted;
+  line-height: 1.5;
+}
+.pricing .container .pricing-cards .pricing-card ul li:last-child {
+  border: 0px solid transparent;
+}
+.pricing .container .pricing-cards .pricing-card .pricing-btn {
+  padding: 18.5px 42px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid;
+  -o-border-image: linear-gradient(to left, #ff0000 0%, #c6019a 100%);
+     border-image: -webkit-gradient(linear, right top, left top, from(#ff0000), to(#c6019a));
+     border-image: linear-gradient(to left, #ff0000 0%, #c6019a 100%);
+  border-image-slice: 1;
+  font-size: 15px;
+  font-family: "Aclonica", sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  text-transform: capitalize;
+  background-size: 200% auto;
+  cursor: pointer;
+}
+.pricing .container .pricing-cards .pricing-card .pricing-btn:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#ff0000), to(#c6019a));
+  background: linear-gradient(to left, #ff0000 0%, #c6019a 100%);
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .home .container .home-title h1 {
     color: red;
     font-size: 10px;
   }
+}
+.footer {
+  padding: 140px 0px 100px;
+}
+.footer .container .footer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.footer .container .footer-items .footer-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 15px;
+  width: 30%;
+}
+.footer .container .footer-items .footer-item .logo {
+  width: 158px;
+  height: 38px;
+  margin-bottom: 30px;
+}
+.footer .container .footer-items .footer-item h4 {
+  line-height: 1.2em;
+  color: #fff;
+  font-family: "Aclonica", sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.footer .container .footer-items .footer-item p {
+  margin-bottom: 10px;
+  color: #bebebe;
+  font-family: "Poppins", sans-serif;
+  line-height: 29px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.footer .container .footer-items .footer-item a {
+  color: #bebebe;
+  font-family: "Poppins", sans-serif;
+  line-height: 29px;
+  font-size: 15px;
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.footer .container .footer-items .footer-item a:hover {
+  color: #ff0000;
+}
+.footer .container .footer-items .footer-item form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.footer .container .footer-items .footer-item form input {
+  padding: 11px;
+  font-size: 13px;
+  background-color: #f9f9fe;
+  border: 1px solid transparent;
+  outline: none;
+  font-family: "Aclonica", sans-serif;
+}
+.footer .container .footer-items .footer-item form .footer-btn {
+  padding: 12px 12px;
+  font-size: 12px;
+  border: 2px solid;
+  cursor: pointer;
+  background-image: -webkit-gradient(linear, right top, left top, from(#c6019a), to(#ff0000));
+  background-image: linear-gradient(to left, #c6019a 0%, #ff0000 100%);
+}
+.footer .container .footer-items .footer-item form .footer-btn i {
+  color: #fff;
+  font-size: 15;
 }/*# sourceMappingURL=style.css.map */
