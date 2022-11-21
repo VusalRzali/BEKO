@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+// Home Start 
 .home {
   background: url(../../images/banner_bg.png);
   background-position: center center;
@@ -61,24 +62,24 @@ body {
     }
   }
 }
-
+// Home END 
 // Client Section
 .clients {
   .container {
     .client-brends {
       height: 150px;
       display: flex;
-      flex-wrap: wrap;
+      // flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       gap: 5%;
     }
   }
 }
+// About START 
 .about {
   .container {
     .about-content {
-      // width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -90,11 +91,6 @@ body {
       }
       .about-title {
         width: 42%;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        //   align-items: flex-end;
-        //   flex-direction: column;
         h2 {
           font-size: 45px;
           font-weight: 500;
@@ -104,7 +100,6 @@ body {
           font-family: "Aclonica", sans-serif;
         }
         p {
-          // width: 110%;
           line-height: 39px;
           margin-bottom: 57px;
           font-family: "Poppins", sans-serif;
@@ -167,6 +162,8 @@ body {
     }
   }
 }
+// About END
+// Live Stareams START
 .live-stareams {
   background: url(../../images/live_stareams_bg.png);
   position: relative;
@@ -244,9 +241,19 @@ body {
     }
   }
 }
-
+// Live Stareams END 
+// Lastest War Start 
 .lastest-war {
   .container {
+    h2 {
+      font-size: 45px;
+      color: #fff;
+      line-height: 50px;
+      font-weight: 500;
+      font-family: "Aclonica", sans-serif;
+      margin-bottom: 28px;
+      text-align: center;
+    }
     .lastest-war-component {
       background: url(../../images/latest_war_img.png);
       background-position: center center;
@@ -569,6 +576,8 @@ body {
     }
   }
 }
+// Lastest WAR END 
+// Gallery Start 
 .gallery {
   padding: 140px 0px;
   .container {
@@ -586,6 +595,7 @@ body {
         margin-bottom: 28px;
       }
     }
+
     .gallery-items {
       background-color: #000;
       padding: 6px;
@@ -630,7 +640,7 @@ body {
           object-fit: cover;
         }
       }
-
+// Gallery MEDIA 
       @media screen and (max-width: 600px) {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -649,9 +659,12 @@ body {
           }
         }
       }
+      // Galerry MEDIA END 
     }
   }
 }
+// Gallery END 
+ // Upcoming Start 
 .upcoming {
   background-image: url(../../images/event_bg.png);
   background-size: 90%;
@@ -671,50 +684,53 @@ body {
       gap: 30px;
       width: 100%;
       height: 100%;
-      .upcoming-title {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        h3 {
-          font-family: "Aclonica", sans-serif;
-          font-size: 30px;
-          font-weight: 600;
-          color: #fff;
-        }
+    }
+    .upcoming-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h3 {
+        font-family: "Aclonica", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
       }
-      .upcoming-timer {
+    }
+   
+    .upcoming-timer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      gap: 50px;
+      span {
+        font-size: 20px;
+      }
+      .days {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        justify-content: space-between;
-        gap: 50px;
-        span {
-          font-size: 20px;
-        }
-        .days {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 15px;
-          font-size: 50px;
-          color: #fff;
-          font-family: "Aclonica", sans-serif;
-        }
-        .hours {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 15px;
-          font-size: 50px;
-          color: #fff;
-          font-family: "Aclonica", sans-serif;
-        }
+        gap: 15px;
+        font-size: 50px;
+        color: #fff;
+        font-family: "Aclonica", sans-serif;
+      }
+      .hours {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        font-size: 50px;
+        color: #fff;
+        font-family: "Aclonica", sans-serif;
       }
     }
   }
 }
+// Upcoming END 
+// Pricing Card Start 
 .pricing {
   padding: 140px 0px 0px;
   .container {
@@ -735,6 +751,7 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 30px;
       .pricing-card {
         background: url(../../images/pricing_bg.png);
@@ -814,22 +831,4 @@ body {
     }
   }
 }
-
-
-
-@media (max-width: 992px) {
-  .container {
-    max-width: 960px;
-   margin: 0px 90px;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-@media (max-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
+// Pricing Card END 

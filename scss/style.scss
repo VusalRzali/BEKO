@@ -1,9 +1,10 @@
 @import "./Base/reset";
-@import "./Utils/variables";
-@import "./Utils/mixin";
-@import "./Utils/map";
-@import "./Utils/media";
 @import "./Layout/navbar";
 @import "./Pages/home";
 @import "./Pages/fighter";
-@import "./Layout/footer"
+@import "./Pages/.team";
+@import "./Layout/footer";
+@import "./Utils/media";
+@import "./Pages/single-blog";
+@import "./Pages/blog";
+@import "./Pages/contact";
